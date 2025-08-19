@@ -61,9 +61,9 @@ Select one of the following methods to trigger the script automatically.
 This is the cleanest method, as it hooks directly into Virtualmin's workflow.
 
 1.  Log into Virtualmin as `root`.
-2.  Navigate to **System Settings** -> **Server Templates**.
-3.  Select your default template (e.g., **Default Settings**) and click **Mail for domain**.
-4.  Find the field **Command to run after making changes**.
+2.  Navigate to the **Virtualmin** tab, then go to **System Settings** -> **Virtualmin Configuration**.
+3.  Click on the **Actions upon server and user creation** category.
+4.  Find the field named **Command to run after making changes to a server**.
 5.  Enter the full path to the script:
     ```
     /usr/local/sbin/fix_dovecot_config.sh
