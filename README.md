@@ -11,7 +11,7 @@ This script automatically fixes Dovecot configuration on systems where Virtualmi
 When managing mail for a domain (e.g., creating a domain, updating an SSL certificate), Virtualmin may write a `dovecot.conf` file with deprecated parameters. This will cause the Dovecot service to fail to start or reload.
 
 This script detects and fixes the following common issues:
-- `default_mail_env` is corrected to `mail_path`
+- `mail_location` is corrected to `mail_path`
 - `disable_plaintext_auth = no` is corrected to `auth_allow_cleartext = yes`
 - `ssl_cert = </path/to/cert` is corrected to `ssl_server_cert_file = /path/to/cert`
 - `ssl_key = </path/to/key` is corrected to `ssl_server_key_file = /path/to/key`
