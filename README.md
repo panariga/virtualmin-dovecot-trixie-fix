@@ -1,4 +1,5 @@
 
+Warning: vibe-coded but works on my system.
 Temp fix until Virtualmin get Debian Trixie compability.
 
 # Virtualmin Dovecot Compatibility Fix
