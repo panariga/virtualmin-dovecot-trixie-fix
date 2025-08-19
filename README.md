@@ -42,7 +42,7 @@ This script should be run automatically after Virtualmin makes changes. Follow t
 1.  **Download the Script**
     Download the `fix_dovecot_config.sh` script to your server.
     ```sh
-    wget https://raw.githubusercontent.com/your-username/virtualmin-dovecot-trixie-fix/main/fix_dovecot_config.sh
+    wget https://raw.githubusercontent.com/panariga/virtualmin-dovecot-trixie-fix/main/fix_dovecot_config.sh
     ```
 
 2.  **Move and Make Executable**
